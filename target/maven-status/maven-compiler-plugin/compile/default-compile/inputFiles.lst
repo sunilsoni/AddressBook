@@ -1,0 +1,15 @@
+C:\Source\git\angular\addrbook\src\main\java\com\trey\addrbook\bootstrap\RootConfig.java
+C:\Source\git\angular\addrbook\src\main\java\com\trey\addrbook\bootstrap\MvcConfig.java
+C:\Source\git\angular\addrbook\src\main\java\com\trey\addrbook\bootstrap\WebAppInitializer.java
+C:\Source\git\angular\addrbook\src\main\java\com\trey\addrbook\service\PersonServiceImpl.java
+C:\Source\git\angular\addrbook\src\main\java\com\trey\addrbook\dto\PersonDto.java
+C:\Source\git\angular\addrbook\src\main\java\com\trey\addrbook\controller\PersonController.java
+C:\Source\git\angular\addrbook\src\main\java\com\trey\addrbook\exception\PersonNotFoundException.java
+C:\Source\git\angular\addrbook\src\main\java\com\trey\addrbook\service\PersonService.java
+C:\Source\git\angular\addrbook\src\main\java\com\trey\addrbook\bootstrap\DatabaseConfig.java
+C:\Source\git\angular\addrbook\src\main\java\com\trey\addrbook\dao\PersonDao.java
+C:\Source\git\angular\addrbook\src\main\java\com\trey\addrbook\dto\save\SavePersonRequest.java
+C:\Source\git\angular\addrbook\src\main\java\com\trey\addrbook\util\DtoFactory.java
+C:\Source\git\angular\addrbook\src\main\java\com\trey\addrbook\dao\PersonDaoImpl.java
+C:\Source\git\angular\addrbook\src\main\java\com\trey\addrbook\domain\Person.java
+C:\Source\git\angular\addrbook\src\main\java\com\trey\addrbook\bootstrap\sql\ScriptRunner.java

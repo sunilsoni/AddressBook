@@ -1,0 +1,16 @@
+com\trey\addrbook\service\fixture\ServiceTestFixture.class
+com\trey\addrbook\controller\TestPersonController$2.class
+com\trey\addrbook\springconfig\DaoTestConfig.class
+com\trey\addrbook\controller\TestPersonController$1.class
+com\trey\addrbook\springconfig\ServiceTestConfig.class
+com\trey\addrbook\service\TestPersonServiceImpl$Holder.class
+com\trey\addrbook\dao\fixture\DaoImplTestFixture.class
+com\trey\addrbook\controller\TestUtil.class
+com\trey\addrbook\springconfig\ControllerTestConfig.class
+com\trey\addrbook\dao\TestPersonDaoImpl.class
+com\trey\addrbook\controller\fixture\ControllerTestFixture.class
+com\trey\addrbook\service\TestPersonServiceImpl$1.class
+com\trey\addrbook\e2e\TestEndToEnd.class
+com\trey\addrbook\e2e\fixture\EndToEndTestFixture.class
+com\trey\addrbook\service\TestPersonServiceImpl.class
+com\trey\addrbook\controller\TestPersonController.class
