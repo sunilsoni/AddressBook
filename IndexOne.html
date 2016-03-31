@@ -1,0 +1,333 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>PO #</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/verticalbargraph.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/highcharts.js"></script>
+    <script src="js/jquery.highchartTable-min.js"></script>
+    <!-- -------------- IE8 HTML5 support  -------------- -->
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        footer {
+            padding: 30px 0 20px;
+            border-top: 3px solid #009CDE;
+            font-size: 12px;
+        }
+
+        header {
+            padding: 30px 0 20px;
+            border-bottom: 3px solid #009CDE;
+        }
+
+        .headerUl {
+            list-style: none;
+        }
+
+        .colorheader {
+            color: #009CDE;
+            font-weight: bold;
+        }
+
+        .colorheaderdeg {
+            color: #009CDE;
+            font-size: 16px;
+        }
+
+        body {
+            font-size: 16px;
+            font-family: Verdana, Arial, Times New Roman, Sans-Serif;
+            height: 100%;
+            width: 100%;
+        }
+
+        .headerDivOne {
+            margin-right: 12px;
+            padding-top: 0px;
+            float: right;
+            margin-bottom: 0px !important;
+        }
+
+        .headerDiv {
+            float: right;
+            padding-top: 10px;
+            margin-bottom: 0px !important;
+        }
+
+        #home {
+            box-shadow: 0px 5px 5px #888888;
+            border: 1px solid #bdbdbd;
+            background-color: #fff;
+        }
+
+        #tabUl > li > a {
+            background-color: #009CDE;
+            color: #fff;
+            font-weight: bold;
+        }
+
+            #tabUl > li > a:hover,
+            #tabUl > li > a:focus {
+                background-color: #0b3690;
+                color: #fff;
+                font-weight: bold;
+            }
+
+        .headerTable {
+            background-color: #939393;
+            color: #fff;
+        }
+
+        .table-danger {
+            background-color: #f2dede !important;
+        }
+
+        .table-success {
+            background-color: #dff0d8 !important;
+        }
+
+        .table-active {
+            background-color: #d9edf7 !important;
+        }
+
+        .jci-color {
+            background: #f4f7f9 !important;
+        }
+
+        .highcharts-series-group > .highcharts-series > rect {
+            width: 18px !important;
+        }
+
+        .errorText {
+            top: 180px;
+            padding-right: 22px;
+        }
+        /*.highcharts-series-0 > rect {
+            fill: #6666ff !important;
+        }
+        .highcharts-series-1 > rect {
+            fill: #ff8119 !important;
+        }
+        .highcharts-series-2 > rect {
+            fill: #bab4b0 !important;
+        }*/
+
+         .errorText > table > tbody {
+            text-align: center;
+        }
+        #error >  a:hover,
+        #error > a:focus{
+            text-decoration:none;
+        }
+    </style>
+    <script>
+        jQuery(document).ready(function () {
+            jQuery('table.highchart').highchartTable({
+                yAxis: [{
+                    lineWidth: 1,
+                    max: 8,
+                    min: 0,
+                    title: { text: 'yAxis' }
+                }]
+
+            });
+
+        });
+    </script>
+</head>
+<body>
+    <div class="container jci-color">
+        <header>
+            <div class="row ">
+                <div class="col-sm-6">
+                    <a href="IndexOne.html"><img src="img/Johnson_Controls.png" style="height:70px;width:145px" /></a>
+
+                </div>
+                <div class="col-sm-6">
+                    <div style="float:right"> <a href="Login%20Page.html" class="btn btn-danger">Log Off</a></div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group headerDiv">
+                                <label for="usr" class="listview-label colorheader">Welcome :</label>
+                                <label for="usr" class="listview-label" style="font-weight:bold">&nbsp;Ajay</label>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--<ul class="headerUl"
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>-->
+                </div>
+
+                <div class=" headerDivOne">
+                    <label for="usr" class="listview-label colorheaderdeg">(Software Engineer)</label>
+                </div>
+            </div>
+
+        </header>
+        <section>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="" style="margin:22px">
+                        <table class="highchart" data-graph-container-before="1" data-graph-type="column" style="display:none">
+                            <caption>Supplier Collaboration Dashboard</caption>
+                            <thead>
+                                <tr>
+                                    <th>aa</th>
+                                    <th>Processed</th>
+                                    <th>In-Transit</th>
+                                    <th>Errored </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Symix</td>
+                                    <td>5</td>
+                                    <td>3</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>SAP</td>
+                                    <td>3</td>
+                                    <td>5</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>Oracle</td>
+                                    <td>3</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>Mapics</td>
+                                    <td>5</td>
+                                    <td>3</td>
+                                    <td>2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+               
+                <div class="col-sm-6 errorText">
+                    <table class="table table-bordered">
+                        <tbody style="background-color:#fff">
+                            <tr>
+                                <td>Action Required</td>
+                            </tr>
+                            <tr>
+                                <td id="error">
+                                    <a href="IndexTwo.html"><p style="color:red"> •&nbsp;&nbsp;&nbsp;Error in Process -------------- 10</p></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <hr />
+            <div class="" style="margin:20px">
+                <ul class="nav nav-tabs" id="tabUl">
+                    <li class="active"><a data-toggle="tab" href="#home">Symix</a></li>
+                    <li><a data-toggle="tab" href="#menu1">SAP</a></li>
+                    <li><a data-toggle="tab" href="#menu2">Oracle</a></li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="home" class="tab-pane fade in active">
+                        <div class="row">
+                            <div class="col-sm-2" style="padding:20px;">
+                                <button type="button" style="float: right" class="btn btn-success">Pull PO Data</button>
+                            </div>
+                            <div class="col-sm-2" style="padding:20px">
+                                <button type="button" class="btn btn-info">Process PO Data</button>
+                            </div>
+                            <div class="col-sm-12">
+
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr class="headerTable">
+                                            <th>Select</th>
+                                            <th>PO#</th>
+                                            <th>PO Description</th>
+                                            <th>Source</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="table-active">
+                                            <th scope="row"><input class="checkbox-info" type="checkbox" value=""></th>
+                                            <td>239843985</td>
+                                            <td>PO for E2Open Test</td>
+                                            <td>Symix</td>
+                                            <td>In-transit</td>
+
+                                        </tr>
+                                        <tr class="table-success">
+                                            <th scope="row"><input type="checkbox" value=""></th>
+                                            <td>239843985</td>
+                                            <td>PO for E2Open Test #2</td>
+                                            <td>Symix</td>
+                                            <td>Transaction Completed</td>
+                                        </tr>
+                                        <tr class="table-danger">
+                                            <th scope="row"><input type="checkbox" value=""></th>
+                                            <td>123897479</td>
+                                            <td>PO for E2Open Test #3</td>
+                                            <td>Symix</td>
+                                            <td>Error in Process</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="menu1" class="tab-pane fade">
+                        <h3>SAP</h3>
+
+                    </div>
+                    <div id="menu2" class="tab-pane fade">
+                        <h3>Oracle</h3>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <footer>
+
+            <div class="footer-copyright">
+                <div class="container">
+                    <div class="row" style="text-align:center">
+                        <div class="col-sm-12" style="text-align:center">
+                            <p class="text-center">&copy; 2015 Johnson Controls, Inc. All rights reserved. <span class="mobile-divider"><a href="http://www.johnsoncontrols.com/content/us/en/privacy.html" target="_blank">Privacy</a> | <a href="http://www.johnsoncontrols.com/content/us/en/terms.html" target="_blank">Terms of use</a></span></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </footer>
+    </div>
+</body>
+</html>
